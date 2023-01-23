@@ -1,0 +1,121 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3vw;
+  margin-bottom: 2vw;
+  align-items: center;
+  background-color: #e4e4bb;
+}
+
+.option {
+  display: flex;
+  border-radius: 5px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.options-heading {
+  font-style: italic;
+}
+
+.option p {
+  max-width: 130px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(90, 86, 86);
+}
+
+.option img {
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.product:hover {
+  border: 0.5px solid greenyellow;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
+
+.product img {
+  border-radius: 5px;
+}
+
+.product-name {
+  color: rgb(36, 31, 31);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.price {
+  color: lightcoral;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.cart-btn {
+  padding: 1.5vw;
+  background: rgb(65, 168, 65);
+  border-radius: 5px;
+  margin: 2vw;
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 2vw;
+  color: white;
+  background-color: rgb(77, 75, 75);
+}
+
+.card-controls {
+  display: flex;
+}
+
+.card-controls div {
+  margin: 10px 4px;
+}
+
+.add,
+.remove {
+  cursor: pointer;
+  padding: 2px;
+  margin: 2px;
+  width: 10px;
+}
