@@ -1,5 +1,5 @@
 # back-kart
 Created with CodeSandbox
---Steps:
-npm install --legacy-peer-deps
-npm start
+Steps:<br />
+- npm install --legacy-peer-deps
+- npm start
